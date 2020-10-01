@@ -30,7 +30,7 @@ driver.implicitly_wait(10)
 URL = 'https://www.chegg.com/auth?action=login&redirect=https%3A%2F%2Fwww.chegg.com%2Fhomework-help%2Fresearch-al-khorezmi-also-al-khwarizmi-man-whose-name-word-a-chapter-1.1-problem-1e-solution-9780132316811-exc'
 
 driver.get(URL)
-
+print('')
 email_signin = driver.find_element_by_id('emailForSignIn')
 email_signin.click()
 email_signin.send_keys("zaia@berea.edu")
